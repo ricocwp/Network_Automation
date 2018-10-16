@@ -1,6 +1,6 @@
 import paramiko
 import time
-import getpass
+import sys
 
 username = "klim"
 password = "klim123"
