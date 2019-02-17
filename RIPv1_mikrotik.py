@@ -21,7 +21,6 @@ time.sleep(1)
 stdin, stdout, stderr = ssh_client1.exec_command('routing rip interface add interface=ether3')
 time.sleep(1)
 
-
 stdin, stdout, stderr = ssh_client1.exec_command('routing rip network add network=192.168.10.0/24')
 time.sleep(1)
 
